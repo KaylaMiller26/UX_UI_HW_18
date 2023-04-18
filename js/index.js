@@ -1,3 +1,4 @@
-var helloWorld = "helloWorld!";
-console.log(helloWorld); 
 
+$("#myID").on("click", function(){
+    $(".fadeMe").fadeToggle("slow");
+});
